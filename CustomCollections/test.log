@@ -3913,3 +3913,1426 @@
 2022-01-29 18:38:55,160 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
 2022-01-29 18:38:55,160 Request Received for clear : 
 2022-01-29 18:38:55,160 Request Successful New List post clear : []
+2022-01-29 18:42:56,929 Request Received for append : 1
+2022-01-29 18:42:56,930 Request Successful New List post append : [1]
+2022-01-29 18:42:56,930 Request Received for append : 2
+2022-01-29 18:42:56,930 Request Successful New List post append : [1, 2]
+2022-01-29 18:42:56,930 Request Received for append : 3
+2022-01-29 18:42:56,930 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:42:56,930 Request Received for append : 4
+2022-01-29 18:42:56,930 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:42:56,930 Request Received for append : 5
+2022-01-29 18:42:56,930 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:42:56,930 Request Received for append : 5
+2022-01-29 18:42:56,930 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:42:56,931 Request Received for append : 6
+2022-01-29 18:42:56,931 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:42:56,931 Request Received for Copy
+2022-01-29 18:42:56,931 can only concatenate str (not "list") to str
+2022-01-29 18:42:56,931 Request Received for count : 5
+2022-01-29 18:42:56,931 Total Count of : 5 is 2
+2022-01-29 18:42:56,931 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:42:56,931 Request Received for append : 111
+2022-01-29 18:42:56,931 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:42:56,931 Request Received for append : 222
+2022-01-29 18:42:56,931 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:42:56,931 Request Received for append : 333
+2022-01-29 18:42:56,932 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:42:56,932 Request Received for append : 444
+2022-01-29 18:42:56,932 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:42:56,932 Request Received for append : 555
+2022-01-29 18:42:56,932 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:42:56,932 Request Received for append : 666
+2022-01-29 18:42:56,932 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:42:56,932 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:42:56,932 Request Received for append : 1111
+2022-01-29 18:42:56,932 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:42:56,932 Request Received for append : 2222
+2022-01-29 18:42:56,932 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:42:56,932 Request Received for append : 3333
+2022-01-29 18:42:56,933 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:42:56,933 Request Received for append : 4444
+2022-01-29 18:42:56,933 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:42:56,933 Request Received for append : 5555
+2022-01-29 18:42:56,933 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:42:56,933 Request Received for append : 6666
+2022-01-29 18:42:56,933 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:42:56,933 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:42:56,933 Request Received for append : 55555
+2022-01-29 18:42:56,933 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:42:56,933 Request Received for append : 33333
+2022-01-29 18:42:56,933 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:42:56,933 Request Received for append : 11111
+2022-01-29 18:42:56,933 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:42:56,933 Request Received for append : 66666
+2022-01-29 18:42:56,934 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:42:56,934 Request Received for append : 44444
+2022-01-29 18:42:56,934 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:42:56,934 Request Received for append : 22222
+2022-01-29 18:42:56,934 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:42:56,934 Request Received for index : 52222222222222222222222
+2022-01-29 18:42:56,934 52222222222222222222222 is not in list
+2022-01-29 18:42:56,934 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:42:56,934 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:42:56,934 Request Received for pop
+2022-01-29 18:42:56,934 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:42:56,934 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:42:56,934 Request Received for index : 777777777777777777777777777
+2022-01-29 18:42:56,934 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:42:56,934 Request Received for reverse : 
+2022-01-29 18:42:56,934 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:42:56,934 Request received for Sort 
+2022-01-29 18:42:56,935 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:42:56,935 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:42:56,935 Request Received for clear : 
+2022-01-29 18:42:56,935 Request Successful New List post clear : []
+2022-01-29 18:51:40,836 Request Received for append : 1
+2022-01-29 18:51:40,836 Request Successful New List post append : [1]
+2022-01-29 18:51:40,837 Request Received for append : 2
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2]
+2022-01-29 18:51:40,837 Request Received for append : 3
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:51:40,837 Request Received for append : 4
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:51:40,837 Request Received for append : 5
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:51:40,837 Request Received for append : 5
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:51:40,837 Request Received for append : 6
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:51:40,837 Request Received for Copy
+2022-01-29 18:51:40,837 can only concatenate str (not "list") to str
+2022-01-29 18:51:40,837 Request Received for count : 5
+2022-01-29 18:51:40,837 Total Count of : 5 is 2
+2022-01-29 18:51:40,837 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:51:40,837 Request Received for append : 111
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:51:40,837 Request Received for append : 222
+2022-01-29 18:51:40,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:51:40,838 Request Received for append : 333
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:51:40,838 Request Received for append : 444
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:51:40,838 Request Received for append : 555
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:51:40,838 Request Received for append : 666
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:51:40,838 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:51:40,838 Request Received for append : 1111
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:51:40,838 Request Received for append : 2222
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:51:40,838 Request Received for append : 3333
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:51:40,838 Request Received for append : 4444
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:51:40,838 Request Received for append : 5555
+2022-01-29 18:51:40,838 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:51:40,838 Request Received for append : 6666
+2022-01-29 18:51:40,839 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:51:40,839 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:51:40,839 Request Received for append : 55555
+2022-01-29 18:51:40,839 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:51:40,839 Request Received for append : 33333
+2022-01-29 18:51:40,839 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:51:40,839 Request Received for append : 11111
+2022-01-29 18:51:40,839 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:51:40,839 Request Received for append : 66666
+2022-01-29 18:51:40,839 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:51:40,839 Request Received for append : 44444
+2022-01-29 18:51:40,839 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:51:40,839 Request Received for append : 22222
+2022-01-29 18:51:40,839 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:51:40,839 Request Received for index : 52222222222222222222222
+2022-01-29 18:51:40,839 52222222222222222222222 is not in list
+2022-01-29 18:51:40,839 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:51:40,839 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:51:40,839 Request Received for pop
+2022-01-29 18:51:40,839 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:51:40,839 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:51:40,840 Request Received for index : 777777777777777777777777777
+2022-01-29 18:51:40,840 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:51:40,840 Request Received for reverse : 
+2022-01-29 18:51:40,840 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:51:40,840 Request received for Sort 
+2022-01-29 18:51:40,840 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:51:40,840 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:51:40,840 Request Received for clear : 
+2022-01-29 18:51:40,840 Request Successful New List post clear : []
+2022-01-29 18:51:40,840 Request Received for count : 1
+2022-01-29 18:51:40,840 Total Count of : 1 is 0
+2022-01-29 18:52:38,333 Request Received for append : 1
+2022-01-29 18:52:38,334 Request Successful New List post append : [1]
+2022-01-29 18:52:38,334 Request Received for append : 2
+2022-01-29 18:52:38,334 Request Successful New List post append : [1, 2]
+2022-01-29 18:52:38,334 Request Received for append : 3
+2022-01-29 18:52:38,334 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:52:38,334 Request Received for append : 4
+2022-01-29 18:52:38,334 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:52:38,334 Request Received for append : 5
+2022-01-29 18:52:38,334 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:52:38,334 Request Received for append : 5
+2022-01-29 18:52:38,334 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:52:38,335 Request Received for append : 6
+2022-01-29 18:52:38,335 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:52:38,335 Request Received for Copy
+2022-01-29 18:52:38,335 can only concatenate str (not "list") to str
+2022-01-29 18:52:38,335 Request Received for count : 5
+2022-01-29 18:52:38,335 Total Count of : 5 is 2
+2022-01-29 18:52:38,335 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:52:38,336 Request Received for append : 111
+2022-01-29 18:52:38,336 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:52:38,336 Request Received for append : 222
+2022-01-29 18:52:38,336 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:52:38,336 Request Received for append : 333
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:52:38,337 Request Received for append : 444
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:52:38,337 Request Received for append : 555
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:52:38,337 Request Received for append : 666
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:52:38,337 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:52:38,337 Request Received for append : 1111
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:52:38,337 Request Received for append : 2222
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:52:38,337 Request Received for append : 3333
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:52:38,337 Request Received for append : 4444
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:52:38,337 Request Received for append : 5555
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:52:38,337 Request Received for append : 6666
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:52:38,337 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:52:38,337 Request Received for append : 55555
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:52:38,337 Request Received for append : 33333
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:52:38,337 Request Received for append : 11111
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:52:38,337 Request Received for append : 66666
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:52:38,337 Request Received for append : 44444
+2022-01-29 18:52:38,337 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:38,337 Request Received for append : 22222
+2022-01-29 18:52:38,338 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:52:38,338 Request Received for index : 52222222222222222222222
+2022-01-29 18:52:38,338 52222222222222222222222 is not in list
+2022-01-29 18:52:38,338 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:52:38,338 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:52:38,338 Request Received for pop
+2022-01-29 18:52:38,338 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:38,338 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:52:38,338 Request Received for index : 777777777777777777777777777
+2022-01-29 18:52:38,338 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:38,339 Request Received for reverse : 
+2022-01-29 18:52:38,339 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:52:38,339 Request received for Sort 
+2022-01-29 18:52:38,339 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:38,339 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:52:38,339 Request Received for clear : 
+2022-01-29 18:52:38,339 Request Successful New List post clear : []
+2022-01-29 18:52:38,339 Request Received for count : 1
+2022-01-29 18:52:38,339 Total Count of : 1 is 0
+2022-01-29 18:52:48,312 Request Received for append : 1
+2022-01-29 18:52:48,312 Request Successful New List post append : [1]
+2022-01-29 18:52:48,312 Request Received for append : 2
+2022-01-29 18:52:48,312 Request Successful New List post append : [1, 2]
+2022-01-29 18:52:48,312 Request Received for append : 3
+2022-01-29 18:52:48,312 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:52:48,312 Request Received for append : 4
+2022-01-29 18:52:48,312 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:52:48,313 Request Received for append : 5
+2022-01-29 18:52:48,313 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:52:48,313 Request Received for append : 5
+2022-01-29 18:52:48,313 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:52:48,313 Request Received for append : 6
+2022-01-29 18:52:48,313 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:52:48,313 Request Received for Copy
+2022-01-29 18:52:48,314 can only concatenate str (not "list") to str
+2022-01-29 18:52:48,314 Request Received for count : 5
+2022-01-29 18:52:48,314 Total Count of : 5 is 2
+2022-01-29 18:52:48,314 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:52:48,314 Request Received for append : 111
+2022-01-29 18:52:48,314 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:52:48,314 Request Received for append : 222
+2022-01-29 18:52:48,314 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:52:48,314 Request Received for append : 333
+2022-01-29 18:52:48,314 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:52:48,315 Request Received for append : 444
+2022-01-29 18:52:48,315 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:52:48,315 Request Received for append : 555
+2022-01-29 18:52:48,315 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:52:48,315 Request Received for append : 666
+2022-01-29 18:52:48,315 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:52:48,315 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:52:48,315 Request Received for append : 1111
+2022-01-29 18:52:48,315 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:52:48,316 Request Received for append : 2222
+2022-01-29 18:52:48,316 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:52:48,316 Request Received for append : 3333
+2022-01-29 18:52:48,316 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:52:48,316 Request Received for append : 4444
+2022-01-29 18:52:48,316 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:52:48,316 Request Received for append : 5555
+2022-01-29 18:52:48,316 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:52:48,316 Request Received for append : 6666
+2022-01-29 18:52:48,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:52:48,317 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:52:48,317 Request Received for append : 55555
+2022-01-29 18:52:48,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:52:48,317 Request Received for append : 33333
+2022-01-29 18:52:48,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:52:48,317 Request Received for append : 11111
+2022-01-29 18:52:48,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:52:48,317 Request Received for append : 66666
+2022-01-29 18:52:48,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:52:48,318 Request Received for append : 44444
+2022-01-29 18:52:48,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:48,318 Request Received for append : 22222
+2022-01-29 18:52:48,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:52:48,318 Request Received for index : 52222222222222222222222
+2022-01-29 18:52:48,318 52222222222222222222222 is not in list
+2022-01-29 18:52:48,318 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:52:48,318 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:52:48,318 Request Received for pop
+2022-01-29 18:52:48,318 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:48,319 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:52:48,319 Request Received for index : 777777777777777777777777777
+2022-01-29 18:52:48,319 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:48,319 Request Received for reverse : 
+2022-01-29 18:52:48,319 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:52:48,319 Request received for Sort 
+2022-01-29 18:52:48,319 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:52:48,319 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:52:48,319 Request Received for clear : 
+2022-01-29 18:52:48,319 Request Successful New List post clear : []
+2022-01-29 18:53:48,830 Request Received for append : 1
+2022-01-29 18:53:48,831 Request Successful New List post append : [1]
+2022-01-29 18:53:48,831 Request Received for append : 2
+2022-01-29 18:53:48,831 Request Successful New List post append : [1, 2]
+2022-01-29 18:53:48,832 Request Received for append : 3
+2022-01-29 18:53:48,832 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:53:48,832 Request Received for append : 4
+2022-01-29 18:53:48,832 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:53:48,832 Request Received for append : 5
+2022-01-29 18:53:48,833 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:53:48,833 Request Received for append : 5
+2022-01-29 18:53:48,833 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:53:48,833 Request Received for append : 6
+2022-01-29 18:53:48,833 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:53:48,834 Request Received for Copy
+2022-01-29 18:53:48,834 can only concatenate str (not "list") to str
+2022-01-29 18:53:48,834 Request Received for count : 5
+2022-01-29 18:53:48,834 Total Count of : 5 is 2
+2022-01-29 18:53:48,834 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:53:48,834 Request Received for append : 111
+2022-01-29 18:53:48,834 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:53:48,835 Request Received for append : 222
+2022-01-29 18:53:48,835 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:53:48,835 Request Received for append : 333
+2022-01-29 18:53:48,835 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:53:48,835 Request Received for append : 444
+2022-01-29 18:53:48,835 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:53:48,835 Request Received for append : 555
+2022-01-29 18:53:48,835 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:53:48,835 Request Received for append : 666
+2022-01-29 18:53:48,835 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:53:48,835 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:53:48,836 Request Received for append : 1111
+2022-01-29 18:53:48,836 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:53:48,836 Request Received for append : 2222
+2022-01-29 18:53:48,836 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:53:48,836 Request Received for append : 3333
+2022-01-29 18:53:48,836 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:53:48,836 Request Received for append : 4444
+2022-01-29 18:53:48,836 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:53:48,836 Request Received for append : 5555
+2022-01-29 18:53:48,836 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:53:48,836 Request Received for append : 6666
+2022-01-29 18:53:48,836 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:53:48,837 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:53:48,837 Request Received for append : 55555
+2022-01-29 18:53:48,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:53:48,837 Request Received for append : 33333
+2022-01-29 18:53:48,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:53:48,837 Request Received for append : 11111
+2022-01-29 18:53:48,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:53:48,837 Request Received for append : 66666
+2022-01-29 18:53:48,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:53:48,837 Request Received for append : 44444
+2022-01-29 18:53:48,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:53:48,837 Request Received for append : 22222
+2022-01-29 18:53:48,837 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:53:48,838 Request Received for index : 52222222222222222222222
+2022-01-29 18:53:48,838 52222222222222222222222 is not in list
+2022-01-29 18:53:48,838 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:53:48,838 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:53:48,838 Request Received for pop
+2022-01-29 18:53:48,838 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:53:48,838 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:53:48,838 Request Received for index : 777777777777777777777777777
+2022-01-29 18:53:48,838 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:53:48,838 Request Received for reverse : 
+2022-01-29 18:53:48,839 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:53:48,839 Request received for Sort 
+2022-01-29 18:53:48,839 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:53:48,839 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:53:48,839 Request Received for clear : 
+2022-01-29 18:53:48,839 Request Successful New List post clear : []
+2022-01-29 18:54:13,774 Request Received for append : 1
+2022-01-29 18:54:13,775 Request Successful New List post append : [1]
+2022-01-29 18:54:13,776 Request Received for append : 2
+2022-01-29 18:54:13,776 Request Successful New List post append : [1, 2]
+2022-01-29 18:54:13,776 Request Received for append : 3
+2022-01-29 18:54:13,776 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:54:13,776 Request Received for append : 4
+2022-01-29 18:54:13,776 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:54:13,776 Request Received for append : 5
+2022-01-29 18:54:13,776 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:54:13,776 Request Received for append : 5
+2022-01-29 18:54:13,776 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:54:13,777 Request Received for append : 6
+2022-01-29 18:54:13,777 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:54:13,777 Request Received for Copy
+2022-01-29 18:54:13,777 can only concatenate str (not "list") to str
+2022-01-29 18:54:13,777 Request Received for count : 5
+2022-01-29 18:54:13,777 Total Count of : 5 is 2
+2022-01-29 18:54:13,778 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:54:13,778 Request Received for append : 111
+2022-01-29 18:54:13,778 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:54:13,778 Request Received for append : 222
+2022-01-29 18:54:13,778 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:54:13,778 Request Received for append : 333
+2022-01-29 18:54:13,779 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:54:13,779 Request Received for append : 444
+2022-01-29 18:54:13,779 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:54:13,779 Request Received for append : 555
+2022-01-29 18:54:13,780 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:54:13,780 Request Received for append : 666
+2022-01-29 18:54:13,780 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:54:13,780 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:54:13,780 Request Received for append : 1111
+2022-01-29 18:54:13,780 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:54:13,780 Request Received for append : 2222
+2022-01-29 18:54:13,780 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:54:13,781 Request Received for append : 3333
+2022-01-29 18:54:13,781 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:54:13,782 Request Received for append : 4444
+2022-01-29 18:54:13,782 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:54:13,782 Request Received for append : 5555
+2022-01-29 18:54:13,782 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:54:13,782 Request Received for append : 6666
+2022-01-29 18:54:13,782 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:54:13,782 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:54:13,782 Request Received for append : 55555
+2022-01-29 18:54:13,782 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:54:13,782 Request Received for append : 33333
+2022-01-29 18:54:13,782 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:54:13,782 Request Received for append : 11111
+2022-01-29 18:54:13,783 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:54:13,783 Request Received for append : 66666
+2022-01-29 18:54:13,783 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:54:13,783 Request Received for append : 44444
+2022-01-29 18:54:13,783 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:54:13,783 Request Received for append : 22222
+2022-01-29 18:54:13,783 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:54:13,783 Request Received for index : 52222222222222222222222
+2022-01-29 18:54:13,784 52222222222222222222222 is not in list
+2022-01-29 18:54:13,784 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:54:13,784 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:54:13,784 Request Received for pop
+2022-01-29 18:54:13,784 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:54:13,784 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:54:13,784 Request Received for index : 777777777777777777777777777
+2022-01-29 18:54:13,784 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:54:13,785 Request Received for reverse : 
+2022-01-29 18:54:13,785 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:54:13,785 Request received for Sort 
+2022-01-29 18:54:13,785 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:54:13,785 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:54:13,785 Request Received for clear : 
+2022-01-29 18:54:13,786 Request Successful New List post clear : []
+2022-01-29 18:55:30,539 Request Received for append : 1
+2022-01-29 18:55:30,539 Request Successful New List post append : [1]
+2022-01-29 18:55:30,539 Request Received for append : 2
+2022-01-29 18:55:30,539 Request Successful New List post append : [1, 2]
+2022-01-29 18:55:30,539 Request Received for append : 3
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:55:30,540 Request Received for append : 4
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:55:30,540 Request Received for append : 5
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:55:30,540 Request Received for append : 5
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:55:30,540 Request Received for append : 6
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:55:30,540 Request Received for Copy
+2022-01-29 18:55:30,540 can only concatenate str (not "list") to str
+2022-01-29 18:55:30,540 Request Received for count : 5
+2022-01-29 18:55:30,540 Total Count of : 5 is 2
+2022-01-29 18:55:30,540 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:55:30,540 Request Received for append : 111
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:55:30,540 Request Received for append : 222
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:55:30,540 Request Received for append : 333
+2022-01-29 18:55:30,540 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:55:30,540 Request Received for append : 444
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:55:30,541 Request Received for append : 555
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:55:30,541 Request Received for append : 666
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:55:30,541 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:55:30,541 Request Received for append : 1111
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:55:30,541 Request Received for append : 2222
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:55:30,541 Request Received for append : 3333
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:55:30,541 Request Received for append : 4444
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:55:30,541 Request Received for append : 5555
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:55:30,541 Request Received for append : 6666
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:55:30,541 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:55:30,541 Request Received for append : 55555
+2022-01-29 18:55:30,541 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:55:30,541 Request Received for append : 33333
+2022-01-29 18:55:30,542 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:55:30,542 Request Received for append : 11111
+2022-01-29 18:55:30,542 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:55:30,542 Request Received for append : 66666
+2022-01-29 18:55:30,542 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:55:30,542 Request Received for append : 44444
+2022-01-29 18:55:30,542 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:55:30,542 Request Received for append : 22222
+2022-01-29 18:55:30,542 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:55:30,542 Request Received for index : 52222222222222222222222
+2022-01-29 18:55:30,542 52222222222222222222222 is not in list
+2022-01-29 18:55:30,542 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:55:30,542 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:55:30,542 Request Received for pop
+2022-01-29 18:55:30,542 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:55:30,542 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:55:30,542 Request Received for index : 777777777777777777777777777
+2022-01-29 18:55:30,542 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:55:30,542 Request Received for reverse : 
+2022-01-29 18:55:30,543 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:55:30,543 Request received for Sort 
+2022-01-29 18:55:30,543 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:55:30,543 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:55:30,543 Request Received for clear : 
+2022-01-29 18:55:30,543 Request Successful New List post clear : []
+2022-01-29 18:56:51,450 Request Received for append : 1
+2022-01-29 18:56:51,450 Request Successful New List post append : [1]
+2022-01-29 18:56:51,450 Request Received for append : 2
+2022-01-29 18:56:51,451 Request Successful New List post append : [1, 2]
+2022-01-29 18:56:51,451 Request Received for append : 3
+2022-01-29 18:56:51,451 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:56:51,451 Request Received for append : 4
+2022-01-29 18:56:51,451 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:56:51,451 Request Received for append : 5
+2022-01-29 18:56:51,451 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:56:51,451 Request Received for append : 5
+2022-01-29 18:56:51,451 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:56:51,451 Request Received for append : 6
+2022-01-29 18:56:51,451 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:56:51,451 Request Received for Copy
+2022-01-29 18:56:51,451 can only concatenate str (not "list") to str
+2022-01-29 18:56:51,451 Request Received for count : 5
+2022-01-29 18:56:51,451 Total Count of : 5 is 2
+2022-01-29 18:56:51,451 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:56:51,451 Request Received for append : 111
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:56:51,452 Request Received for append : 222
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:56:51,452 Request Received for append : 333
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:56:51,452 Request Received for append : 444
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:56:51,452 Request Received for append : 555
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:56:51,452 Request Received for append : 666
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:56:51,452 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:56:51,452 Request Received for append : 1111
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:56:51,452 Request Received for append : 2222
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:56:51,452 Request Received for append : 3333
+2022-01-29 18:56:51,452 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:56:51,453 Request Received for append : 4444
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:56:51,453 Request Received for append : 5555
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:56:51,453 Request Received for append : 6666
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:56:51,453 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:56:51,453 Request Received for append : 55555
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:56:51,453 Request Received for append : 33333
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:56:51,453 Request Received for append : 11111
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:56:51,453 Request Received for append : 66666
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:56:51,453 Request Received for append : 44444
+2022-01-29 18:56:51,453 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:56:51,453 Request Received for append : 22222
+2022-01-29 18:56:51,454 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:56:51,454 Request Received for index : 52222222222222222222222
+2022-01-29 18:56:51,454 52222222222222222222222 is not in list
+2022-01-29 18:56:51,454 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:56:51,454 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:56:51,454 Request Received for pop
+2022-01-29 18:56:51,454 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:56:51,454 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:56:51,454 Request Received for index : 777777777777777777777777777
+2022-01-29 18:56:51,454 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:56:51,454 Request Received for reverse : 
+2022-01-29 18:56:51,454 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:56:51,454 Request received for Sort 
+2022-01-29 18:56:51,454 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:56:51,454 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:56:51,455 Request Received for clear : 
+2022-01-29 18:56:51,455 Request Successful New List post clear : []
+2022-01-29 18:57:43,006 Request Received for append : 1
+2022-01-29 18:57:43,007 Request Successful New List post append : [1]
+2022-01-29 18:57:43,007 Request Received for append : 2
+2022-01-29 18:57:43,007 Request Successful New List post append : [1, 2]
+2022-01-29 18:57:43,007 Request Received for append : 3
+2022-01-29 18:57:43,007 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:57:43,008 Request Received for append : 4
+2022-01-29 18:57:43,008 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:57:43,008 Request Received for append : 5
+2022-01-29 18:57:43,008 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:57:43,008 Request Received for append : 5
+2022-01-29 18:57:43,008 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:57:43,009 Request Received for append : 6
+2022-01-29 18:57:43,009 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:57:43,009 Request Received for Copy
+2022-01-29 18:57:43,009 can only concatenate str (not "list") to str
+2022-01-29 18:57:43,009 Request Received for count : 5
+2022-01-29 18:57:43,009 Total Count of : 5 is 2
+2022-01-29 18:57:43,010 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:57:43,010 Request Received for append : 111
+2022-01-29 18:57:43,010 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:57:43,010 Request Received for append : 222
+2022-01-29 18:57:43,010 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:57:43,010 Request Received for append : 333
+2022-01-29 18:57:43,011 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:57:43,011 Request Received for append : 444
+2022-01-29 18:57:43,011 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:57:43,011 Request Received for append : 555
+2022-01-29 18:57:43,011 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:57:43,012 Request Received for append : 666
+2022-01-29 18:57:43,012 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:57:43,012 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:57:43,012 Request Received for append : 1111
+2022-01-29 18:57:43,012 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:57:43,012 Request Received for append : 2222
+2022-01-29 18:57:43,013 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:57:43,013 Request Received for append : 3333
+2022-01-29 18:57:43,013 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:57:43,013 Request Received for append : 4444
+2022-01-29 18:57:43,013 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:57:43,014 Request Received for append : 5555
+2022-01-29 18:57:43,014 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:57:43,014 Request Received for append : 6666
+2022-01-29 18:57:43,014 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:57:43,014 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:57:43,014 Request Received for append : 55555
+2022-01-29 18:57:43,015 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:57:43,015 Request Received for append : 33333
+2022-01-29 18:57:43,015 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:57:43,015 Request Received for append : 11111
+2022-01-29 18:57:43,015 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:57:43,015 Request Received for append : 66666
+2022-01-29 18:57:43,016 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:57:43,017 Request Received for append : 44444
+2022-01-29 18:57:43,017 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:57:43,017 Request Received for append : 22222
+2022-01-29 18:57:43,017 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:57:43,017 Request Received for index : 52222222222222222222222
+2022-01-29 18:57:43,017 52222222222222222222222 is not in list
+2022-01-29 18:57:43,018 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:57:43,018 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:57:43,018 Request Received for pop
+2022-01-29 18:57:43,018 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:57:43,018 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:57:43,019 Request Received for index : 777777777777777777777777777
+2022-01-29 18:57:43,019 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:57:43,019 Request Received for reverse : 
+2022-01-29 18:57:43,019 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:57:43,019 Request received for Sort 
+2022-01-29 18:57:43,019 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:57:43,020 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:57:43,020 Request Received for clear : 
+2022-01-29 18:57:43,020 Request Successful New List post clear : []
+2022-01-29 18:57:43,020 Request Received for count : 1
+2022-01-29 18:57:43,020 Total Count of : 1 is 1
+2022-01-29 18:58:50,034 Request Received for append : 1
+2022-01-29 18:58:50,035 Request Successful New List post append : [1]
+2022-01-29 18:58:50,035 Request Received for append : 2
+2022-01-29 18:58:50,035 Request Successful New List post append : [1, 2]
+2022-01-29 18:58:50,035 Request Received for append : 3
+2022-01-29 18:58:50,035 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:58:50,035 Request Received for append : 4
+2022-01-29 18:58:50,035 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:58:50,035 Request Received for append : 5
+2022-01-29 18:58:50,036 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:58:50,036 Request Received for append : 5
+2022-01-29 18:58:50,036 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:58:50,036 Request Received for append : 6
+2022-01-29 18:58:50,036 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:58:50,036 Request Received for Copy
+2022-01-29 18:58:50,036 can only concatenate str (not "list") to str
+2022-01-29 18:58:50,036 Request Received for count : 5
+2022-01-29 18:58:50,036 Total Count of : 5 is 2
+2022-01-29 18:58:50,036 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:58:50,036 Request Received for append : 111
+2022-01-29 18:58:50,037 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:58:50,037 Request Received for append : 222
+2022-01-29 18:58:50,037 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:58:50,037 Request Received for append : 333
+2022-01-29 18:58:50,037 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:58:50,037 Request Received for append : 444
+2022-01-29 18:58:50,037 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:58:50,037 Request Received for append : 555
+2022-01-29 18:58:50,037 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:58:50,037 Request Received for append : 666
+2022-01-29 18:58:50,037 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:58:50,037 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:58:50,038 Request Received for append : 1111
+2022-01-29 18:58:50,038 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:58:50,038 Request Received for append : 2222
+2022-01-29 18:58:50,038 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:58:50,038 Request Received for append : 3333
+2022-01-29 18:58:50,038 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:58:50,038 Request Received for append : 4444
+2022-01-29 18:58:50,038 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:58:50,038 Request Received for append : 5555
+2022-01-29 18:58:50,038 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:58:50,038 Request Received for append : 6666
+2022-01-29 18:58:50,038 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:58:50,039 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:58:50,039 Request Received for append : 55555
+2022-01-29 18:58:50,039 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:58:50,039 Request Received for append : 33333
+2022-01-29 18:58:50,039 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:58:50,039 Request Received for append : 11111
+2022-01-29 18:58:50,039 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:58:50,039 Request Received for append : 66666
+2022-01-29 18:58:50,039 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:58:50,039 Request Received for append : 44444
+2022-01-29 18:58:50,040 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:58:50,040 Request Received for append : 22222
+2022-01-29 18:58:50,040 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:58:50,040 Request Received for index : 52222222222222222222222
+2022-01-29 18:58:50,040 52222222222222222222222 is not in list
+2022-01-29 18:58:50,040 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:58:50,040 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:58:50,040 Request Received for pop
+2022-01-29 18:58:50,040 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:58:50,040 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:58:50,040 Request Received for index : 777777777777777777777777777
+2022-01-29 18:58:50,041 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:58:50,041 Request Received for reverse : 
+2022-01-29 18:58:50,041 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:58:50,041 Request received for Sort 
+2022-01-29 18:58:50,041 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:58:50,041 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:58:50,041 Request Received for clear : 
+2022-01-29 18:58:50,041 Request Successful New List post clear : []
+2022-01-29 18:58:50,041 Input Must be of Type Tuple
+2022-01-29 18:58:50,041 Request Received for count : 1
+2022-01-29 18:58:50,041 'TupleImpl' object has no attribute 'iTuple'
+2022-01-29 18:59:33,975 Request Received for append : 1
+2022-01-29 18:59:33,975 Request Successful New List post append : [1]
+2022-01-29 18:59:33,975 Request Received for append : 2
+2022-01-29 18:59:33,975 Request Successful New List post append : [1, 2]
+2022-01-29 18:59:33,975 Request Received for append : 3
+2022-01-29 18:59:33,975 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:59:33,976 Request Received for append : 4
+2022-01-29 18:59:33,976 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:59:33,976 Request Received for append : 5
+2022-01-29 18:59:33,976 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:59:33,976 Request Received for append : 5
+2022-01-29 18:59:33,976 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:59:33,976 Request Received for append : 6
+2022-01-29 18:59:33,976 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:59:33,976 Request Received for Copy
+2022-01-29 18:59:33,976 can only concatenate str (not "list") to str
+2022-01-29 18:59:33,976 Request Received for count : 5
+2022-01-29 18:59:33,977 Total Count of : 5 is 2
+2022-01-29 18:59:33,977 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:59:33,977 Request Received for append : 111
+2022-01-29 18:59:33,977 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:59:33,977 Request Received for append : 222
+2022-01-29 18:59:33,977 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:59:33,977 Request Received for append : 333
+2022-01-29 18:59:33,977 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:59:33,977 Request Received for append : 444
+2022-01-29 18:59:33,977 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:59:33,977 Request Received for append : 555
+2022-01-29 18:59:33,978 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:59:33,978 Request Received for append : 666
+2022-01-29 18:59:33,978 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:59:33,978 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:59:33,978 Request Received for append : 1111
+2022-01-29 18:59:33,978 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:59:33,978 Request Received for append : 2222
+2022-01-29 18:59:33,978 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:59:33,978 Request Received for append : 3333
+2022-01-29 18:59:33,978 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:59:33,978 Request Received for append : 4444
+2022-01-29 18:59:33,978 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:59:33,979 Request Received for append : 5555
+2022-01-29 18:59:33,979 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:59:33,979 Request Received for append : 6666
+2022-01-29 18:59:33,979 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:59:33,979 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:59:33,979 Request Received for append : 55555
+2022-01-29 18:59:33,979 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:59:33,979 Request Received for append : 33333
+2022-01-29 18:59:33,979 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:59:33,979 Request Received for append : 11111
+2022-01-29 18:59:33,979 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:59:33,979 Request Received for append : 66666
+2022-01-29 18:59:33,980 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:59:33,980 Request Received for append : 44444
+2022-01-29 18:59:33,980 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:33,980 Request Received for append : 22222
+2022-01-29 18:59:33,980 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:59:33,980 Request Received for index : 52222222222222222222222
+2022-01-29 18:59:33,980 52222222222222222222222 is not in list
+2022-01-29 18:59:33,980 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:59:33,980 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:59:33,980 Request Received for pop
+2022-01-29 18:59:33,981 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:33,981 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:59:33,981 Request Received for index : 777777777777777777777777777
+2022-01-29 18:59:33,981 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:33,981 Request Received for reverse : 
+2022-01-29 18:59:33,981 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:59:33,981 Request received for Sort 
+2022-01-29 18:59:33,981 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:33,981 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:59:33,981 Request Received for clear : 
+2022-01-29 18:59:33,982 Request Successful New List post clear : []
+2022-01-29 18:59:33,982 Input Must be of Type Tuple
+2022-01-29 18:59:33,982 Request Received for count : 1
+2022-01-29 18:59:33,982 'TupleImpl' object has no attribute 'iTuple'
+2022-01-29 18:59:55,675 Request Received for append : 1
+2022-01-29 18:59:55,675 Request Successful New List post append : [1]
+2022-01-29 18:59:55,675 Request Received for append : 2
+2022-01-29 18:59:55,675 Request Successful New List post append : [1, 2]
+2022-01-29 18:59:55,675 Request Received for append : 3
+2022-01-29 18:59:55,675 Request Successful New List post append : [1, 2, 3]
+2022-01-29 18:59:55,675 Request Received for append : 4
+2022-01-29 18:59:55,675 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 18:59:55,675 Request Received for append : 5
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 18:59:55,676 Request Received for append : 5
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 18:59:55,676 Request Received for append : 6
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 18:59:55,676 Request Received for Copy
+2022-01-29 18:59:55,676 can only concatenate str (not "list") to str
+2022-01-29 18:59:55,676 Request Received for count : 5
+2022-01-29 18:59:55,676 Total Count of : 5 is 2
+2022-01-29 18:59:55,676 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 18:59:55,676 Request Received for append : 111
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 18:59:55,676 Request Received for append : 222
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 18:59:55,676 Request Received for append : 333
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 18:59:55,676 Request Received for append : 444
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 18:59:55,676 Request Received for append : 555
+2022-01-29 18:59:55,676 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 18:59:55,677 Request Received for append : 666
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 18:59:55,677 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 18:59:55,677 Request Received for append : 1111
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 18:59:55,677 Request Received for append : 2222
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 18:59:55,677 Request Received for append : 3333
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 18:59:55,677 Request Received for append : 4444
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 18:59:55,677 Request Received for append : 5555
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 18:59:55,677 Request Received for append : 6666
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 18:59:55,677 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 18:59:55,677 Request Received for append : 55555
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 18:59:55,677 Request Received for append : 33333
+2022-01-29 18:59:55,677 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 18:59:55,677 Request Received for append : 11111
+2022-01-29 18:59:55,678 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 18:59:55,678 Request Received for append : 66666
+2022-01-29 18:59:55,678 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 18:59:55,678 Request Received for append : 44444
+2022-01-29 18:59:55,678 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:55,678 Request Received for append : 22222
+2022-01-29 18:59:55,678 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:59:55,678 Request Received for index : 52222222222222222222222
+2022-01-29 18:59:55,678 52222222222222222222222 is not in list
+2022-01-29 18:59:55,678 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 18:59:55,678 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 18:59:55,678 Request Received for pop
+2022-01-29 18:59:55,678 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:55,678 Request Received for remove : 777777777777777777777777777
+2022-01-29 18:59:55,678 Request Received for index : 777777777777777777777777777
+2022-01-29 18:59:55,678 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:55,678 Request Received for reverse : 
+2022-01-29 18:59:55,678 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 18:59:55,678 Request received for Sort 
+2022-01-29 18:59:55,679 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 18:59:55,679 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 18:59:55,679 Request Received for clear : 
+2022-01-29 18:59:55,679 Request Successful New List post clear : []
+2022-01-29 18:59:55,679 Request Received for count : 1
+2022-01-29 18:59:55,679 Total Count of : 1 is 1
+2022-01-29 19:00:16,114 Request Received for append : 1
+2022-01-29 19:00:16,115 Request Successful New List post append : [1]
+2022-01-29 19:00:16,115 Request Received for append : 2
+2022-01-29 19:00:16,115 Request Successful New List post append : [1, 2]
+2022-01-29 19:00:16,115 Request Received for append : 3
+2022-01-29 19:00:16,115 Request Successful New List post append : [1, 2, 3]
+2022-01-29 19:00:16,116 Request Received for append : 4
+2022-01-29 19:00:16,116 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 19:00:16,116 Request Received for append : 5
+2022-01-29 19:00:16,116 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 19:00:16,116 Request Received for append : 5
+2022-01-29 19:00:16,116 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 19:00:16,116 Request Received for append : 6
+2022-01-29 19:00:16,117 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 19:00:16,117 Request Received for Copy
+2022-01-29 19:00:16,117 can only concatenate str (not "list") to str
+2022-01-29 19:00:16,117 Request Received for count : 5
+2022-01-29 19:00:16,117 Total Count of : 5 is 2
+2022-01-29 19:00:16,118 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:16,118 Request Received for append : 111
+2022-01-29 19:00:16,118 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 19:00:16,118 Request Received for append : 222
+2022-01-29 19:00:16,118 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 19:00:16,118 Request Received for append : 333
+2022-01-29 19:00:16,119 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 19:00:16,119 Request Received for append : 444
+2022-01-29 19:00:16,119 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 19:00:16,119 Request Received for append : 555
+2022-01-29 19:00:16,119 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 19:00:16,119 Request Received for append : 666
+2022-01-29 19:00:16,119 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:16,120 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 19:00:16,120 Request Received for append : 1111
+2022-01-29 19:00:16,120 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 19:00:16,120 Request Received for append : 2222
+2022-01-29 19:00:16,120 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 19:00:16,120 Request Received for append : 3333
+2022-01-29 19:00:16,121 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 19:00:16,122 Request Received for append : 4444
+2022-01-29 19:00:16,122 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 19:00:16,122 Request Received for append : 5555
+2022-01-29 19:00:16,122 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 19:00:16,123 Request Received for append : 6666
+2022-01-29 19:00:16,123 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 19:00:16,123 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 19:00:16,123 Request Received for append : 55555
+2022-01-29 19:00:16,123 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 19:00:16,124 Request Received for append : 33333
+2022-01-29 19:00:16,124 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 19:00:16,124 Request Received for append : 11111
+2022-01-29 19:00:16,124 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 19:00:16,124 Request Received for append : 66666
+2022-01-29 19:00:16,124 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 19:00:16,125 Request Received for append : 44444
+2022-01-29 19:00:16,125 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:16,125 Request Received for append : 22222
+2022-01-29 19:00:16,125 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:16,125 Request Received for index : 52222222222222222222222
+2022-01-29 19:00:16,125 52222222222222222222222 is not in list
+2022-01-29 19:00:16,126 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 19:00:16,126 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:16,126 Request Received for pop
+2022-01-29 19:00:16,126 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:16,126 Request Received for remove : 777777777777777777777777777
+2022-01-29 19:00:16,127 Request Received for index : 777777777777777777777777777
+2022-01-29 19:00:16,127 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:16,127 Request Received for reverse : 
+2022-01-29 19:00:16,127 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 19:00:16,127 Request received for Sort 
+2022-01-29 19:00:16,128 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:16,128 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 19:00:16,128 Request Received for clear : 
+2022-01-29 19:00:16,128 Request Successful New List post clear : []
+2022-01-29 19:00:16,128 Request Received for count : 1
+2022-01-29 19:00:16,128 Total Count of : 1 is 1
+2022-01-29 19:00:16,129 Request Received for index : 1
+2022-01-29 19:00:25,314 Request Received for append : 1
+2022-01-29 19:00:25,315 Request Successful New List post append : [1]
+2022-01-29 19:00:25,315 Request Received for append : 2
+2022-01-29 19:00:25,315 Request Successful New List post append : [1, 2]
+2022-01-29 19:00:25,315 Request Received for append : 3
+2022-01-29 19:00:25,315 Request Successful New List post append : [1, 2, 3]
+2022-01-29 19:00:25,315 Request Received for append : 4
+2022-01-29 19:00:25,315 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 19:00:25,315 Request Received for append : 5
+2022-01-29 19:00:25,315 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 19:00:25,315 Request Received for append : 5
+2022-01-29 19:00:25,315 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 19:00:25,316 Request Received for append : 6
+2022-01-29 19:00:25,316 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 19:00:25,316 Request Received for Copy
+2022-01-29 19:00:25,316 can only concatenate str (not "list") to str
+2022-01-29 19:00:25,316 Request Received for count : 5
+2022-01-29 19:00:25,316 Total Count of : 5 is 2
+2022-01-29 19:00:25,316 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:25,316 Request Received for append : 111
+2022-01-29 19:00:25,316 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 19:00:25,316 Request Received for append : 222
+2022-01-29 19:00:25,316 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 19:00:25,316 Request Received for append : 333
+2022-01-29 19:00:25,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 19:00:25,317 Request Received for append : 444
+2022-01-29 19:00:25,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 19:00:25,317 Request Received for append : 555
+2022-01-29 19:00:25,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 19:00:25,317 Request Received for append : 666
+2022-01-29 19:00:25,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:25,317 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 19:00:25,317 Request Received for append : 1111
+2022-01-29 19:00:25,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 19:00:25,317 Request Received for append : 2222
+2022-01-29 19:00:25,317 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 19:00:25,317 Request Received for append : 3333
+2022-01-29 19:00:25,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 19:00:25,318 Request Received for append : 4444
+2022-01-29 19:00:25,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 19:00:25,318 Request Received for append : 5555
+2022-01-29 19:00:25,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 19:00:25,318 Request Received for append : 6666
+2022-01-29 19:00:25,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 19:00:25,318 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 19:00:25,318 Request Received for append : 55555
+2022-01-29 19:00:25,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 19:00:25,318 Request Received for append : 33333
+2022-01-29 19:00:25,318 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 19:00:25,318 Request Received for append : 11111
+2022-01-29 19:00:25,319 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 19:00:25,319 Request Received for append : 66666
+2022-01-29 19:00:25,319 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 19:00:25,319 Request Received for append : 44444
+2022-01-29 19:00:25,319 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:25,319 Request Received for append : 22222
+2022-01-29 19:00:25,319 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:25,319 Request Received for index : 52222222222222222222222
+2022-01-29 19:00:25,319 52222222222222222222222 is not in list
+2022-01-29 19:00:25,319 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 19:00:25,319 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:25,320 Request Received for pop
+2022-01-29 19:00:25,320 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:25,320 Request Received for remove : 777777777777777777777777777
+2022-01-29 19:00:25,320 Request Received for index : 777777777777777777777777777
+2022-01-29 19:00:25,320 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:25,320 Request Received for reverse : 
+2022-01-29 19:00:25,320 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 19:00:25,320 Request received for Sort 
+2022-01-29 19:00:25,320 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:25,320 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 19:00:25,320 Request Received for clear : 
+2022-01-29 19:00:25,320 Request Successful New List post clear : []
+2022-01-29 19:00:25,321 Request Received for count : 1
+2022-01-29 19:00:25,321 Total Count of : 1 is 1
+2022-01-29 19:00:25,321 Request Received for index : 2
+2022-01-29 19:00:32,869 Request Received for append : 1
+2022-01-29 19:00:32,870 Request Successful New List post append : [1]
+2022-01-29 19:00:32,870 Request Received for append : 2
+2022-01-29 19:00:32,870 Request Successful New List post append : [1, 2]
+2022-01-29 19:00:32,870 Request Received for append : 3
+2022-01-29 19:00:32,870 Request Successful New List post append : [1, 2, 3]
+2022-01-29 19:00:32,870 Request Received for append : 4
+2022-01-29 19:00:32,871 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 19:00:32,871 Request Received for append : 5
+2022-01-29 19:00:32,871 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 19:00:32,871 Request Received for append : 5
+2022-01-29 19:00:32,871 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 19:00:32,871 Request Received for append : 6
+2022-01-29 19:00:32,871 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 19:00:32,871 Request Received for Copy
+2022-01-29 19:00:32,871 can only concatenate str (not "list") to str
+2022-01-29 19:00:32,872 Request Received for count : 5
+2022-01-29 19:00:32,872 Total Count of : 5 is 2
+2022-01-29 19:00:32,872 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:32,872 Request Received for append : 111
+2022-01-29 19:00:32,872 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 19:00:32,872 Request Received for append : 222
+2022-01-29 19:00:32,873 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 19:00:32,873 Request Received for append : 333
+2022-01-29 19:00:32,873 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 19:00:32,873 Request Received for append : 444
+2022-01-29 19:00:32,873 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 19:00:32,873 Request Received for append : 555
+2022-01-29 19:00:32,873 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 19:00:32,873 Request Received for append : 666
+2022-01-29 19:00:32,873 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:32,874 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 19:00:32,874 Request Received for append : 1111
+2022-01-29 19:00:32,874 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 19:00:32,874 Request Received for append : 2222
+2022-01-29 19:00:32,874 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 19:00:32,874 Request Received for append : 3333
+2022-01-29 19:00:32,874 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 19:00:32,874 Request Received for append : 4444
+2022-01-29 19:00:32,875 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 19:00:32,875 Request Received for append : 5555
+2022-01-29 19:00:32,875 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 19:00:32,875 Request Received for append : 6666
+2022-01-29 19:00:32,875 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 19:00:32,875 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 19:00:32,875 Request Received for append : 55555
+2022-01-29 19:00:32,875 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 19:00:32,876 Request Received for append : 33333
+2022-01-29 19:00:32,876 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 19:00:32,876 Request Received for append : 11111
+2022-01-29 19:00:32,876 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 19:00:32,876 Request Received for append : 66666
+2022-01-29 19:00:32,876 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 19:00:32,876 Request Received for append : 44444
+2022-01-29 19:00:32,876 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:32,876 Request Received for append : 22222
+2022-01-29 19:00:32,877 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:32,877 Request Received for index : 52222222222222222222222
+2022-01-29 19:00:32,877 52222222222222222222222 is not in list
+2022-01-29 19:00:32,877 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 19:00:32,877 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:32,877 Request Received for pop
+2022-01-29 19:00:32,878 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:32,878 Request Received for remove : 777777777777777777777777777
+2022-01-29 19:00:32,878 Request Received for index : 777777777777777777777777777
+2022-01-29 19:00:32,878 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:32,878 Request Received for reverse : 
+2022-01-29 19:00:32,878 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 19:00:32,878 Request received for Sort 
+2022-01-29 19:00:32,878 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:32,879 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 19:00:32,879 Request Received for clear : 
+2022-01-29 19:00:32,879 Request Successful New List post clear : []
+2022-01-29 19:00:32,879 Request Received for count : 1
+2022-01-29 19:00:32,879 Total Count of : 1 is 1
+2022-01-29 19:00:32,879 Request Received for index : 2
+2022-01-29 19:00:40,455 Request Received for append : 1
+2022-01-29 19:00:40,455 Request Successful New List post append : [1]
+2022-01-29 19:00:40,455 Request Received for append : 2
+2022-01-29 19:00:40,455 Request Successful New List post append : [1, 2]
+2022-01-29 19:00:40,455 Request Received for append : 3
+2022-01-29 19:00:40,455 Request Successful New List post append : [1, 2, 3]
+2022-01-29 19:00:40,455 Request Received for append : 4
+2022-01-29 19:00:40,455 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 19:00:40,455 Request Received for append : 5
+2022-01-29 19:00:40,455 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 19:00:40,455 Request Received for append : 5
+2022-01-29 19:00:40,455 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 19:00:40,455 Request Received for append : 6
+2022-01-29 19:00:40,455 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 19:00:40,455 Request Received for Copy
+2022-01-29 19:00:40,455 can only concatenate str (not "list") to str
+2022-01-29 19:00:40,455 Request Received for count : 5
+2022-01-29 19:00:40,455 Total Count of : 5 is 2
+2022-01-29 19:00:40,455 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:40,456 Request Received for append : 111
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 19:00:40,456 Request Received for append : 222
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 19:00:40,456 Request Received for append : 333
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 19:00:40,456 Request Received for append : 444
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 19:00:40,456 Request Received for append : 555
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 19:00:40,456 Request Received for append : 666
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:40,456 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 19:00:40,456 Request Received for append : 1111
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 19:00:40,456 Request Received for append : 2222
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 19:00:40,456 Request Received for append : 3333
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 19:00:40,456 Request Received for append : 4444
+2022-01-29 19:00:40,456 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 19:00:40,457 Request Received for append : 5555
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 19:00:40,457 Request Received for append : 6666
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 19:00:40,457 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 19:00:40,457 Request Received for append : 55555
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 19:00:40,457 Request Received for append : 33333
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 19:00:40,457 Request Received for append : 11111
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 19:00:40,457 Request Received for append : 66666
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 19:00:40,457 Request Received for append : 44444
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:40,457 Request Received for append : 22222
+2022-01-29 19:00:40,457 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:40,457 Request Received for index : 52222222222222222222222
+2022-01-29 19:00:40,457 52222222222222222222222 is not in list
+2022-01-29 19:00:40,457 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 19:00:40,457 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:40,458 Request Received for pop
+2022-01-29 19:00:40,458 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:40,458 Request Received for remove : 777777777777777777777777777
+2022-01-29 19:00:40,458 Request Received for index : 777777777777777777777777777
+2022-01-29 19:00:40,458 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:40,458 Request Received for reverse : 
+2022-01-29 19:00:40,458 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 19:00:40,458 Request received for Sort 
+2022-01-29 19:00:40,458 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:40,458 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 19:00:40,458 Request Received for clear : 
+2022-01-29 19:00:40,458 Request Successful New List post clear : []
+2022-01-29 19:00:40,458 Request Received for count : 1
+2022-01-29 19:00:40,458 Total Count of : 1 is 1
+2022-01-29 19:00:40,458 Request Received for index : 333
+2022-01-29 19:00:40,458 333 is not in Tuple
+2022-01-29 19:00:49,349 Request Received for append : 1
+2022-01-29 19:00:49,350 Request Successful New List post append : [1]
+2022-01-29 19:00:49,350 Request Received for append : 2
+2022-01-29 19:00:49,350 Request Successful New List post append : [1, 2]
+2022-01-29 19:00:49,350 Request Received for append : 3
+2022-01-29 19:00:49,350 Request Successful New List post append : [1, 2, 3]
+2022-01-29 19:00:49,350 Request Received for append : 4
+2022-01-29 19:00:49,351 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 19:00:49,351 Request Received for append : 5
+2022-01-29 19:00:49,351 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 19:00:49,351 Request Received for append : 5
+2022-01-29 19:00:49,351 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 19:00:49,351 Request Received for append : 6
+2022-01-29 19:00:49,351 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 19:00:49,351 Request Received for Copy
+2022-01-29 19:00:49,352 can only concatenate str (not "list") to str
+2022-01-29 19:00:49,352 Request Received for count : 5
+2022-01-29 19:00:49,352 Total Count of : 5 is 2
+2022-01-29 19:00:49,352 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:49,352 Request Received for append : 111
+2022-01-29 19:00:49,352 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 19:00:49,352 Request Received for append : 222
+2022-01-29 19:00:49,353 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 19:00:49,353 Request Received for append : 333
+2022-01-29 19:00:49,353 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 19:00:49,353 Request Received for append : 444
+2022-01-29 19:00:49,353 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 19:00:49,353 Request Received for append : 555
+2022-01-29 19:00:49,353 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 19:00:49,353 Request Received for append : 666
+2022-01-29 19:00:49,354 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:49,354 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 19:00:49,354 Request Received for append : 1111
+2022-01-29 19:00:49,354 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 19:00:49,354 Request Received for append : 2222
+2022-01-29 19:00:49,354 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 19:00:49,354 Request Received for append : 3333
+2022-01-29 19:00:49,354 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 19:00:49,355 Request Received for append : 4444
+2022-01-29 19:00:49,355 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 19:00:49,355 Request Received for append : 5555
+2022-01-29 19:00:49,355 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 19:00:49,355 Request Received for append : 6666
+2022-01-29 19:00:49,355 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 19:00:49,356 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 19:00:49,356 Request Received for append : 55555
+2022-01-29 19:00:49,356 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 19:00:49,356 Request Received for append : 33333
+2022-01-29 19:00:49,356 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 19:00:49,356 Request Received for append : 11111
+2022-01-29 19:00:49,357 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 19:00:49,357 Request Received for append : 66666
+2022-01-29 19:00:49,357 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 19:00:49,357 Request Received for append : 44444
+2022-01-29 19:00:49,357 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:49,357 Request Received for append : 22222
+2022-01-29 19:00:49,357 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:49,358 Request Received for index : 52222222222222222222222
+2022-01-29 19:00:49,358 52222222222222222222222 is not in list
+2022-01-29 19:00:49,358 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 19:00:49,358 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:49,358 Request Received for pop
+2022-01-29 19:00:49,358 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:49,359 Request Received for remove : 777777777777777777777777777
+2022-01-29 19:00:49,359 Request Received for index : 777777777777777777777777777
+2022-01-29 19:00:49,359 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:49,359 Request Received for reverse : 
+2022-01-29 19:00:49,359 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 19:00:49,359 Request received for Sort 
+2022-01-29 19:00:49,359 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:49,360 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 19:00:49,360 Request Received for clear : 
+2022-01-29 19:00:49,361 Request Successful New List post clear : []
+2022-01-29 19:00:49,361 Request Received for count : 1
+2022-01-29 19:00:49,361 Total Count of : 1 is 1
+2022-01-29 19:00:49,362 Request Received for index : 4
+2022-01-29 19:00:55,822 Request Received for append : 1
+2022-01-29 19:00:55,822 Request Successful New List post append : [1]
+2022-01-29 19:00:55,822 Request Received for append : 2
+2022-01-29 19:00:55,822 Request Successful New List post append : [1, 2]
+2022-01-29 19:00:55,822 Request Received for append : 3
+2022-01-29 19:00:55,822 Request Successful New List post append : [1, 2, 3]
+2022-01-29 19:00:55,822 Request Received for append : 4
+2022-01-29 19:00:55,822 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 19:00:55,822 Request Received for append : 5
+2022-01-29 19:00:55,822 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 19:00:55,822 Request Received for append : 5
+2022-01-29 19:00:55,823 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 19:00:55,823 Request Received for append : 6
+2022-01-29 19:00:55,823 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 19:00:55,823 Request Received for Copy
+2022-01-29 19:00:55,823 can only concatenate str (not "list") to str
+2022-01-29 19:00:55,823 Request Received for count : 5
+2022-01-29 19:00:55,823 Total Count of : 5 is 2
+2022-01-29 19:00:55,823 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:55,823 Request Received for append : 111
+2022-01-29 19:00:55,823 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 19:00:55,823 Request Received for append : 222
+2022-01-29 19:00:55,824 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 19:00:55,824 Request Received for append : 333
+2022-01-29 19:00:55,824 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 19:00:55,824 Request Received for append : 444
+2022-01-29 19:00:55,824 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 19:00:55,824 Request Received for append : 555
+2022-01-29 19:00:55,824 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 19:00:55,824 Request Received for append : 666
+2022-01-29 19:00:55,824 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 19:00:55,824 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 19:00:55,824 Request Received for append : 1111
+2022-01-29 19:00:55,824 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 19:00:55,824 Request Received for append : 2222
+2022-01-29 19:00:55,824 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 19:00:55,825 Request Received for append : 3333
+2022-01-29 19:00:55,825 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 19:00:55,825 Request Received for append : 4444
+2022-01-29 19:00:55,825 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 19:00:55,825 Request Received for append : 5555
+2022-01-29 19:00:55,825 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 19:00:55,825 Request Received for append : 6666
+2022-01-29 19:00:55,825 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 19:00:55,825 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 19:00:55,825 Request Received for append : 55555
+2022-01-29 19:00:55,825 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 19:00:55,825 Request Received for append : 33333
+2022-01-29 19:00:55,826 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 19:00:55,826 Request Received for append : 11111
+2022-01-29 19:00:55,826 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 19:00:55,826 Request Received for append : 66666
+2022-01-29 19:00:55,826 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 19:00:55,826 Request Received for append : 44444
+2022-01-29 19:00:55,826 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:55,826 Request Received for append : 22222
+2022-01-29 19:00:55,826 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:55,826 Request Received for index : 52222222222222222222222
+2022-01-29 19:00:55,826 52222222222222222222222 is not in list
+2022-01-29 19:00:55,826 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 19:00:55,827 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:00:55,827 Request Received for pop
+2022-01-29 19:00:55,827 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:55,827 Request Received for remove : 777777777777777777777777777
+2022-01-29 19:00:55,827 Request Received for index : 777777777777777777777777777
+2022-01-29 19:00:55,827 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:55,827 Request Received for reverse : 
+2022-01-29 19:00:55,827 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 19:00:55,827 Request received for Sort 
+2022-01-29 19:00:55,827 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:00:55,827 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 19:00:55,828 Request Received for clear : 
+2022-01-29 19:00:55,828 Request Successful New List post clear : []
+2022-01-29 19:00:55,828 Request Received for count : 1
+2022-01-29 19:00:55,828 Total Count of : 1 is 1
+2022-01-29 19:00:55,828 Request Received for index : 4
+2022-01-29 19:01:20,842 Request Received for append : 1
+2022-01-29 19:01:20,843 Request Successful New List post append : [1]
+2022-01-29 19:01:20,843 Request Received for append : 2
+2022-01-29 19:01:20,843 Request Successful New List post append : [1, 2]
+2022-01-29 19:01:20,843 Request Received for append : 3
+2022-01-29 19:01:20,843 Request Successful New List post append : [1, 2, 3]
+2022-01-29 19:01:20,843 Request Received for append : 4
+2022-01-29 19:01:20,843 Request Successful New List post append : [1, 2, 3, 4]
+2022-01-29 19:01:20,843 Request Received for append : 5
+2022-01-29 19:01:20,843 Request Successful New List post append : [1, 2, 3, 4, 5]
+2022-01-29 19:01:20,843 Request Received for append : 5
+2022-01-29 19:01:20,844 Request Successful New List post append : [1, 2, 3, 4, 5, 5]
+2022-01-29 19:01:20,844 Request Received for append : 6
+2022-01-29 19:01:20,844 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6]
+2022-01-29 19:01:20,844 Request Received for Copy
+2022-01-29 19:01:20,844 can only concatenate str (not "list") to str
+2022-01-29 19:01:20,844 Request Received for count : 5
+2022-01-29 19:01:20,844 Total Count of : 5 is 2
+2022-01-29 19:01:20,844 Request Received for extend : [111, 222, 333, 444, 555, 666]
+2022-01-29 19:01:20,844 Request Received for append : 111
+2022-01-29 19:01:20,844 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111]
+2022-01-29 19:01:20,844 Request Received for append : 222
+2022-01-29 19:01:20,845 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222]
+2022-01-29 19:01:20,845 Request Received for append : 333
+2022-01-29 19:01:20,845 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333]
+2022-01-29 19:01:20,845 Request Received for append : 444
+2022-01-29 19:01:20,845 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444]
+2022-01-29 19:01:20,845 Request Received for append : 555
+2022-01-29 19:01:20,845 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555]
+2022-01-29 19:01:20,845 Request Received for append : 666
+2022-01-29 19:01:20,845 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666]
+2022-01-29 19:01:20,845 Request Received for extend : (1111, 2222, 3333, 4444, 5555, 6666)
+2022-01-29 19:01:20,846 Request Received for append : 1111
+2022-01-29 19:01:20,846 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111]
+2022-01-29 19:01:20,846 Request Received for append : 2222
+2022-01-29 19:01:20,846 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222]
+2022-01-29 19:01:20,846 Request Received for append : 3333
+2022-01-29 19:01:20,846 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333]
+2022-01-29 19:01:20,846 Request Received for append : 4444
+2022-01-29 19:01:20,846 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444]
+2022-01-29 19:01:20,846 Request Received for append : 5555
+2022-01-29 19:01:20,846 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555]
+2022-01-29 19:01:20,846 Request Received for append : 6666
+2022-01-29 19:01:20,846 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666]
+2022-01-29 19:01:20,847 Request Received for extend : {55555, 33333, 11111, 66666, 44444, 22222}
+2022-01-29 19:01:20,847 Request Received for append : 55555
+2022-01-29 19:01:20,847 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555]
+2022-01-29 19:01:20,847 Request Received for append : 33333
+2022-01-29 19:01:20,847 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333]
+2022-01-29 19:01:20,847 Request Received for append : 11111
+2022-01-29 19:01:20,847 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111]
+2022-01-29 19:01:20,847 Request Received for append : 66666
+2022-01-29 19:01:20,847 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666]
+2022-01-29 19:01:20,847 Request Received for append : 44444
+2022-01-29 19:01:20,847 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:01:20,848 Request Received for append : 22222
+2022-01-29 19:01:20,848 Request Successful New List post append : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:01:20,848 Request Received for index : 52222222222222222222222
+2022-01-29 19:01:20,848 52222222222222222222222 is not in list
+2022-01-29 19:01:20,848 Request received for Insert for input : 777777777777777777777777777 for position : 10
+2022-01-29 19:01:20,848 Final List After insert : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444, 22222]
+2022-01-29 19:01:20,848 Request Received for pop
+2022-01-29 19:01:20,848 List after pop : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 777777777777777777777777777, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:01:20,848 Request Received for remove : 777777777777777777777777777
+2022-01-29 19:01:20,848 Request Received for index : 777777777777777777777777777
+2022-01-29 19:01:20,849 List after remove operation : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:01:20,849 Request Received for reverse : 
+2022-01-29 19:01:20,849 Reverse List is : [44444, 66666, 11111, 33333, 55555, 6666, 5555, 4444, 3333, 2222, 1111, 666, 555, 444, 333, 222, 111, 6, 5, 5, 4, 3, 2, 1]
+2022-01-29 19:01:20,849 Request received for Sort 
+2022-01-29 19:01:20,849 List Before Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 55555, 33333, 11111, 66666, 44444]
+2022-01-29 19:01:20,849 List After Sort : [1, 2, 3, 4, 5, 5, 6, 111, 222, 333, 444, 555, 666, 1111, 2222, 3333, 4444, 5555, 6666, 11111, 33333, 44444, 55555, 66666]
+2022-01-29 19:01:20,849 Request Received for clear : 
+2022-01-29 19:01:20,849 Request Successful New List post clear : []
+2022-01-29 19:01:20,849 Request Received for count : 1
+2022-01-29 19:01:20,850 Total Count of : 1 is 1
+2022-01-29 19:01:20,850 Request Received for index : 4

@@ -8,7 +8,8 @@ class ListImpl:
             self.iList = []
             self.log = LogUtil()
         except Exception as e:
-            LogUtil.logError(e)
+            self.log = LogUtil()
+            self.log.logError(e)
 
     def __str__(self):
         return "This is a Custume Implementation of List"

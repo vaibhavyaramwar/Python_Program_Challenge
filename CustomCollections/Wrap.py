@@ -1,6 +1,8 @@
 
 from CustomCollections.ListImpl import ListImpl
+from CustomCollections.TupleImpl import TupleImpl
 
+print("================================List Method Testing===================================================")
 l1 = ListImpl()
 
 l1.append(1)
@@ -60,3 +62,9 @@ print("clear")
 l11=l1.clear()
 print(l11)
 
+
+print("================================Tuple Method Testing===================================================")
+
+t1 = TupleImpl((1,2,3,4,5,6))
+print("Count of 1 :",t1.count(1))
+print("Index of 2 : ",t1.index(4))
